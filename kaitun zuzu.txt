@@ -1,0 +1,49 @@
+getgenv().OneClickFarms = {
+    ["Shark Anchor"] = true,
+    ["Mirror Fractal"] = true,
+    ["Soul Guitar"] = true,
+    ["Pole (1st Form)"] = true,
+    ["Saber"] = true,
+    ["Upgrading Race"] = true,
+    ["Farming Boss Drop When Maxed Level"] = true,
+    ["Rainbown Haki"] = true,
+    ["Cursed Dual Katana"] = true,
+    ["Buy Guns"] = true,
+    ["Buy Swords"] = true,
+    [Farming Boss Drops When X2 Expired"] = true,
+    ["Awakening Fruit"] = true,
+    ["Hop if Near Farm Area"] = true,
+    ["Auto Race V2-V3"] = true,
+    ["Auto Pull Lever"] = true,
+    ["Select Hop"] = { -- 70% will have it
+     },
+        ["Hop Find Full Moon Soul Guitar"] = false,
+        ["Hop Find Rip Indra Get Tushita"] = true, --- u need have sgt and godhuman
+        ["Hop Find Raids Castle [CDK]"] = true,
+        ["Hop Find Cake Queen [CDK]"] = true,
+    },
+    ["Race"] = {
+        ["Enabled"] = true,
+        ["Auto Roll Race"] = true,
+        ["Select Race"] =  "Fishman", -- Human, Mink, Fishman
+    },
+    ["Buy Haki"] = {
+        ["Enhancement"] = true,
+        ["Skyjump"] = true,
+        ["Flash Step"] = true,
+        ["Observation"] = true,
+    }
+["Fps Boosting"] = true,
+["High Ping Hop"] = true,
+["Allow Stored"] = true,
+["Store Fruit"] = true,
+["Tween Speed"] = 350,
+  ["Same Y Tween"] = true,
+   },
+getgenv().Team = "Pirate"
+getgenv().AutoLoad = false --Will Load Script On Server Hop
+getgenv().SlowLoadUi  = false
+getgenv().FixCrash = false -- Turn it On For Hopping Server, Improve Performance But Silent Aim On Mob And Player
+getgenv().FixCrash2 = true -- Turn it On For Hopping Server, Improve Performance But Will Remove Speed Changer
+getgenv().ForceUseSilentAim = false --Force turn on silent aim , if error then executor problem
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
